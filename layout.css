@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+header {
+  background-color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Login {
+  background: rgb(222, 222, 222);
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 0.5rem;
+  cursor: pointer;
+}
+.container {
+    padding: 2rem;
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+    border-radius: 1re;
+    grid-template-columns: repeat(4, 1fr);
+}
+h1 {
+    background-color: #1e1e1e;
+    color: yellow;
+    text-align: center;
+}
+.card-1 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    grid-column: span 2;
+}
+.card-2 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    grid-row: span 2;
+}
+.card-3 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.card-4 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    grid-row: span 2;
+}
+.card-5 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.card-6 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.card-7 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.card-8 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    grid-column: span 2;
+}
+.card-9 {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    grid-column: span 4;
+}
+.h2 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.p {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.card-1:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-2:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-3:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-4:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-5:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-6:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-7:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-8:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card-9:hover {
+  background-color: #ffd700;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.emoji {
+    font-size: 3rem;
+}
